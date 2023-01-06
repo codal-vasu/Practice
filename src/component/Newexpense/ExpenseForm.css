@@ -1,0 +1,16 @@
+.btn{
+    background-color: brown;
+    font: weight 100px;;
+    color: white;
+    border-color: rgb(214, 142, 142);
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.expense-form{
+    margin: 5px 3px;
+    border-radius: 10px;
+    background-color: rgb(79, 79, 79);
+    font-size: 16px;
+}

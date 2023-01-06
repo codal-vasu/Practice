@@ -1,5 +1,6 @@
 import './Expenseitem.css';
 import React,{useState} from 'react';
+
 function Expenseitem(props)
 {   
     const month = props.date.toLocaleString('en-US',{month:'long'});
@@ -20,7 +21,6 @@ function Expenseitem(props)
             </div>
             <div className="expense-item-description"><h2 >{title}</h2></div>
             <div className="expense-amount"><h5 id="cl">${props.amount}</h5></div>
-            <span><button onClick={clickHandler}>Change Title</button></span>
         </div>
     )
 }

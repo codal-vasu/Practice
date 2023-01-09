@@ -1,10 +1,11 @@
+
 import Expenseitem from './Expenseitem';
 
 function Expense(props){
-
+  
     return(
         <>
-          {props.item.map((expenses)=>(<Expenseitem title= {expenses.title} amount={expenses.amount} date={expenses.date} />))}  
+          {props && props.item.map((expenses)=>(<Expenseitem title= {expenses.title} amount={expenses.amount} date={expenses.date} />))};  
         </>
     );
 };

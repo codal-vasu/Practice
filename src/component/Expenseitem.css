@@ -15,42 +15,15 @@
 
 
 #cl{
-    border: 3px solid black;
     border-radius: 6px;
     padding: 5px;
     position:relative;
     width: 70px;
     margin-right: auto;
     background-color: rgb(255, 119, 0);
-}
-.expense-item .expense-date{
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 3px solid rgb(220, 220, 220);
-    position: relative;
-    width: 70px;
-    height: 60px;
-    background-color: rgb(39, 38, 38);
-    border-radius:10px;
-    color: white;   
+    border: 2px solid black;
 }
 
-#month{
-    position: relative;
-    padding-left: 14px;
-    padding-top: 6px;
-    font-weight: bold;
-}
-#year{
-    font-size: 12px;
-    position: relative;
-    margin-left: 20px;
-}
-#day{
-    font-weight: bold;
-    position: relative;
-    margin-left: 22px;
-}
 
 .expense-item .expense-item-description{
     
@@ -61,8 +34,4 @@
 .expense-item .expense-amount{
     font-size: 18px;
     color: white;
-    
-    
-    
-    
 }
